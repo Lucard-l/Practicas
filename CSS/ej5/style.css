@@ -1,0 +1,14 @@
+body{
+    background-color: lightgray;
+}
+
+table{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+tr th{
+    padding-left: 100px;
+    padding-right: 100px;
+}

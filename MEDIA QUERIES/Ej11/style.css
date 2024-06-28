@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .elemento {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .elemento {
+      margin: 10px 0;
+    }
+
+    .izquierda {
+      order: 1;
+    }
+
+    .centro {
+      order: 3;
+    }
+
+    .derecha {
+      order: 2;
+    }
+  }

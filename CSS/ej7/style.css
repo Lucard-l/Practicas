@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+.div-item {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+.button-hover {
+    background-color: #00a7f5;
+    color: white;
+}
+.button-hover2 {
+    background-color: #0e5f11;
+    color: white;
+}
+.button-hover3 {
+    background-color: #2a0886;
+    color: white;
+}
+.button-hover:hover {
+    background-color: #e40776;
+}
+.button-hover2:hover {
+    background-color: #d40b04;
+}
+.button-hover3:hover {
+    background-color: #d8d50f;
+}
